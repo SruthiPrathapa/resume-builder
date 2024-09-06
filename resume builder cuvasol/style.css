@@ -1,0 +1,467 @@
+.cover-letter {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cover-letter .div {
+    background-color: #ebebeb;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .cover-letter .overlap-group {
+    width: 1400px;
+    height: 830px;
+    top: 174px;
+    left: 20px;
+    background-color: #e7deda;
+    position: absolute;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .overlap {
+    width: 1156px;
+    height: 746px;
+    top: 64px;
+    left: 122px;
+    background-color: #68686833;
+    border: 2px solid;
+    border-color: #ffffff;
+    backdrop-filter: blur(120px) brightness(100%);
+    -webkit-backdrop-filter: blur(120px) brightness(100%);
+    position: absolute;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .cover-l-scrolling {
+    position: absolute;
+    width: 1156px;
+    height: 726px;
+    top: -2px;
+    left: -2px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  .cover-letter .mask-group {
+    position: absolute;
+    width: 264px;
+    height: 392px;
+    top: 270px;
+    left: 20px;
+  }
+  
+  .cover-letter .img {
+    top: 270px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-2 {
+    top: 270px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-3 {
+    top: 270px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-4 {
+    top: 690px;
+    left: 20px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-5 {
+    top: 690px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-6 {
+    top: 690px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-7 {
+    top: 690px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-8 {
+    top: 1110px;
+    left: 20px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-9 {
+    top: 1110px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-10 {
+    top: 1110px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .mask-group-11 {
+    top: 1110px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-letter .rectangle {
+    position: absolute;
+    width: 1156px;
+    height: 236px;
+    top: -2px;
+    left: -2px;
+    background-color: #ffffff03;
+    border-radius: 30px 30px 0px 0px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: #ffffff;
+    backdrop-filter: blur(60px) brightness(100%);
+    -webkit-backdrop-filter: blur(60px) brightness(100%);
+  }
+  
+  .cover-letter .text-wrapper {
+    position: absolute;
+    top: 26px;
+    left: 278px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #101010;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .hover-tab-buttons {
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    left: 18px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .hover-tab-buttons-2 {
+    left: 160px;
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .hover-tab-buttons-3 {
+    left: 302px;
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .hover-tab-buttons-4 {
+    left: 444px;
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .hover-tab-buttons-5 {
+    left: 728px;
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .hover-tab-buttons-6 {
+    left: 586px;
+    position: absolute;
+    width: 122px;
+    height: 41px;
+    top: 163px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .text-wrapper-2 {
+    position: absolute;
+    top: 169px;
+    left: 185px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .text-wrapper-3 {
+    position: absolute;
+    top: 169px;
+    left: 329px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .text-wrapper-4 {
+    position: absolute;
+    top: 171px;
+    left: 455px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .text-wrapper-5 {
+    position: absolute;
+    top: 169px;
+    left: 607px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .text-wrapper-6 {
+    position: absolute;
+    top: 169px;
+    left: 754px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .text-wrapper-7 {
+    position: absolute;
+    top: 169px;
+    left: 67px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .back-button {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 30px;
+    left: 30px;
+    background-color: #ff9061;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .vector {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 13px;
+    left: 13px;
+  }
+  
+  .cover-letter .overlap-2 {
+    width: 1400px;
+    height: 130px;
+    top: 20px;
+    left: 20px;
+    background-color: #e7deda;
+    position: absolute;
+    border-radius: 30px;
+  }
+  
+  .cover-letter .cuvasol {
+    position: absolute;
+    top: 44px;
+    left: 28px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .cover-letter .span {
+    color: #ff7e00;
+  }
+  
+  .cover-letter .text-wrapper-8 {
+    color: #ff0000;
+  }
+  
+  .cover-letter .cuvalogo {
+    position: absolute;
+    width: 45px;
+    height: 58px;
+    top: 36px;
+    left: 172px;
+  }
+  
+  .cover-l-scrolling {
+    position: relative;
+    width: 1156px;
+    height: 726px;
+    overflow: hidden;
+  }
+  
+  .cover-l-scrolling .mask-group {
+    position: absolute;
+    width: 264px;
+    height: 392px;
+    top: 270px;
+    left: 20px;
+  }
+  
+  .cover-l-scrolling .img {
+    top: 270px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-2 {
+    top: 270px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-3 {
+    top: 270px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-4 {
+    top: 690px;
+    left: 20px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-5 {
+    top: 690px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-6 {
+    top: 690px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-7 {
+    top: 690px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-8 {
+    top: 1110px;
+    left: 20px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-9 {
+    top: 1110px;
+    left: 304px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-10 {
+    top: 1110px;
+    left: 588px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  
+  .cover-l-scrolling .mask-group-11 {
+    top: 1110px;
+    left: 872px;
+    position: absolute;
+    width: 264px;
+    height: 392px;
+  }
+  

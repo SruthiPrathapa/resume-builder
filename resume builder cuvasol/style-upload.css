@@ -1,0 +1,273 @@
+.cover-l-upload {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.cover-l-upload .div {
+    background-color: #ebebeb;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+
+.cover-l-upload .overlap{
+    position: absolute;
+    width: 1400px;
+    height: 830px;
+    top: 174px;
+    left: 20px;
+    background-color: #e7deda;
+    border-radius: 30px;
+}
+
+.cover-l-upload .overlap-2{
+    position: relative;
+    width: 406px;
+    height: 65px;
+    background-color: #ff9061;
+    border-radius: 30px;
+}
+
+.cover-l-upload .overlap-3{
+    position: absolute;
+    width: 1400px;
+    height: 130px;
+    top: 20px;
+    left: 20px;
+    background-color: #e7deda;
+    border-radius: 30px;
+}
+
+.cover-l-upload .rectangle{
+    width: 588px;
+    height: 798px;
+    top: 16px;
+    left: 406px;
+    background-color: #fcfcfc66;
+    border: 4px solid;
+    border-color: #ffffff;
+    backdrop-filter: blur(120px) brightness(100%);
+    -webkit-backdrop-filter: blur(120px) brightness(100%);
+    position: absolute;
+    border-radius: 30px;
+}
+
+.cover-l-upload .rectangle-2{
+    width: 972px;
+    height: 623px;
+    top: 103px;
+    left: 214px;
+    background-color: #1f1f1f4c;
+    border: 2px solid;
+    border-color: #ffffff;
+    backdrop-filter: blur(80px) brightness(100%);
+    -webkit-backdrop-filter: blur(80px) brightness(100%);
+    position: absolute;
+    border-radius: 30px;
+}
+
+.cover-l-upload .group {
+    position: absolute;
+    width: 266px;
+    height: 63px;
+    top: 295px;
+    left: 1076px;
+}
+
+.cover-l-upload .group-2 {
+    position: absolute;
+    width: 408px;
+    height: 65px;
+    top: 609px;
+    left: 710px;
+}
+
+.cover-l-upload .overlap-group {
+    width: 264px;
+    height: 63px;
+    background-color: #ff9061;
+    position: relative;
+    border-radius: 30px;
+}
+
+.cover-l-upload .overlap-wrapper {
+    position: absolute;
+    width: 266px;
+    height: 63px;
+    top: 401px;
+    left: 1076px;
+}
+
+.cover-l-upload .overlap-group-wrapper {
+    position: absolute;
+    width: 266px;
+    height: 63px;
+    top: 507px;
+    left: 1076px;
+}
+
+.cover-l-upload .div-wrapper {
+    position: absolute;
+    width: 408px;
+    height: 65px;
+    top: 609px;
+    left: 284px;
+}
+
+.cover-l-upload .p {
+    position: absolute;
+    top: 233px;
+    left: 284px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e3e3e3;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper {
+    position: absolute;
+    top: 11px;
+    left: 105px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper-2 {
+    position: absolute;
+    top: 11px;
+    left: 80px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper-3 {
+    position: absolute;
+    top: 11px;
+    left: 60px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper-4 {
+    position: absolute;
+    top: 13px;
+    left: 87px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper-5 {
+    position: absolute;
+    top: 13px;
+    left: 84px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .text-wrapper-6 {
+    position: absolute;
+    top: 166px;
+    left: 284px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e9e9e9;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.cover-l-upload .teacher {
+    position: absolute;
+    width: 532px;
+    height: 750px;
+    top: 40px;
+    left: 434px;
+}
+
+.cover-l-upload .photojournalist {
+    position: absolute;
+    width: 532px;
+    height: 750px;
+    top: 40px;
+    left: 434px;
+    object-fit: cover;
+}
+
+.cover-l-upload .project-manager {
+    position: absolute;
+    width: 532px;
+    height: 750px;
+    top: 40px;
+    left: 434px;
+    object-fit: cover;
+}
+
+.cover-l-upload .fashion-designer {
+    position: absolute;
+    width: 532px;
+    height: 750px;
+    top: 40px;
+    left: 434px;
+    object-fit: cover;
+}
+
+.cover-l-upload .vector {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 133px;
+    left: 1098px;
+}
+
+.cover-l-upload .cuvasol {
+    position: absolute;
+    top: 44px;
+    left: 28px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+.cover-l-upload .span {
+    color: #ff7e00;
+}
+  
+.cover-l-upload .text-wrapper-7 {
+    color: #ff0000;
+}
+  
+.cover-l-upload .cuvalogo {
+    position: absolute;
+    width: 45px;
+    height: 58px;
+    top: 36px;
+    left: 172px;
+}

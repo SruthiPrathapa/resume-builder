@@ -1,0 +1,189 @@
+.resume-builder {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.resume-builder .div {
+  background-color: #ebebeb;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.resume-builder .overlap {
+  position: absolute;
+  width: 1400px;
+  height: 830px;
+  top: 174px;
+  left: 20px;
+  border-radius: 30px;
+}
+
+.resume-builder .frame {
+  position: absolute;
+  width: 1400px;
+  height: 830px;
+  top: 0;
+  left: 0;
+  background-color: #e7deda;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.resume-builder .ellipse {
+  top: -251px;
+  left: -263px;
+  position: absolute;
+  width: 775px;
+  height: 776px;
+  border-radius: 387.5px/388px;
+  background: linear-gradient(180deg, rgb(255, 145, 97) 0%, rgba(255, 145, 97, 0) 100%);
+  opacity: 0.5;
+}
+
+.resume-builder .ellipse-2 {
+  top: 442px;
+  left: 1012px;
+  transform: rotate(180deg);
+  position: absolute;
+  width: 775px;
+  height: 776px;
+  border-radius: 387.5px/388px;
+  background: linear-gradient(180deg, rgb(255, 145, 97) 0%, rgba(255, 145, 97, 0) 100%);
+  opacity: 0.5;
+}
+
+.resume-builder .what-do-you-want-to {
+  position: absolute;
+  top: 164px;
+  left: 268px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #101010;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.resume-builder .build-resume-grp {
+  position: absolute;
+  width: 339px;
+  height: 337px;
+  top: 398px;
+  left: 243px;
+}
+
+.resume-builder .overlap-group {
+  position: relative;
+  width: 264px;
+  height: 264px;
+  top: 37px;
+  left: 37px;
+  border-radius: 30px;
+}
+
+.resume-builder .vector {
+  position: absolute;
+  width: 242px;
+  height: 239px;
+  top: 7px;
+  left: 11px;
+}
+
+.resume-builder .rectangle {
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(80px) brightness(100%);
+  -webkit-backdrop-filter: blur(80px) brightness(100%);
+  background: linear-gradient(180deg, rgba(227.49, 227.49, 227.49, 0.2) 0%, rgba(199.16, 199.16, 199.16, 0.2) 100%);
+}
+
+.resume-builder .build-resume {
+  position: absolute;
+  top: 78px;
+  left: 56px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #101010;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.resume-builder .build-cover-l-grp {
+  position: absolute;
+  width: 339px;
+  height: 337px;
+  top: 398px;
+  left: 819px;
+}
+
+.resume-builder .build-cover-letter {
+  position: absolute;
+  top: 51px;
+  left: 72px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #101010;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.resume-builder .group-wrapper {
+  position: absolute;
+  width: 1400px;
+  height: 130px;
+  top: 20px;
+  left: 20px;
+  background-color: #e7deda;
+  border-radius: 30px;
+}
+
+.resume-builder .group {
+  position: relative;
+  width: 191px;
+  height: 58px;
+  top: 36px;
+  left: 28px;
+}
+
+.resume-builder .cuvasol {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.resume-builder .text-wrapper {
+  color: #ff7e00;
+}
+
+.resume-builder .span {
+  color: #ff0000;
+}
+
+.resume-builder .cuvalogo {
+  position: absolute;
+  width: 45px;
+  height: 58px;
+  top: 0;
+  left: 144px;
+}
